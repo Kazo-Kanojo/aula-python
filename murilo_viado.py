@@ -56,7 +56,7 @@ for i in range(len(lista)):
         vogais += 1
         continue
     print("não")
-print(f"A quantidade de vogais é {vogais}")'''
+print(f"A quantidade de vogais é {vogais}")
 
 soma = 0
 numeros = [3,2,7,1,8,9]
@@ -69,3 +69,28 @@ for i in range(len(numeros)):
     if numeros[i]%2 != 0:
         print(i)
     print("não acontece porra nenhuma")
+
+
+media_final = [7,2,3,6,4]
+alunos = ['luis', 'joao', 'Ana luiza', 'josé', 'Sofia']
+
+for i in range(len(media_final)):
+    if media_final[i] >= 6:
+        print(f"O/a {alunos[i]} passou")
+
+
+#encontre danilo
+#Diga qual matéria ele da
+
+profs = ['Ceelso', 'Demetrius', 'aurélio', 'Ana', 'Cidade', 'luis', 'danilo']
+materias = ['calculo', 'edge', 'sw&TX', 'story', 'front', 'web', 'pyton']
+
+for i in range(len(profs)):
+    if profs[i] == 'danilo':
+        print("danilo é o professor mais viado de todos")
+'''
+
+profs = ['Celso', 'Demetrius', 'aurélio', 'Ana', 'Cidade', 'luis', 'danilo']
+materias = ['calculo', 'edge', 'sw&TX', 'story', 'front', 'web', 'pyton']
+for i in range(len(profs)):
+    print(f"o/a {profs[i]} da a materia de {materias[i]}")
