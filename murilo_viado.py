@@ -88,9 +88,29 @@ materias = ['calculo', 'edge', 'sw&TX', 'story', 'front', 'web', 'pyton']
 for i in range(len(profs)):
     if profs[i] == 'danilo':
         print("danilo é o professor mais viado de todos")
-'''
+
 
 profs = ['Celso', 'Demetrius', 'aurélio', 'Ana', 'Cidade', 'luis', 'danilo']
 materias = ['calculo', 'edge', 'sw&TX', 'story', 'front', 'web', 'pyton']
 for i in range(len(profs)):
     print(f"o/a {profs[i]} da a materia de {materias[i]}")
+
+
+preco = [3,150,20,1000000000,200,500]
+carros = ['kwid','civic','up', 'POLINHO TURBÃO MANUAL', 'opala', 'uno com escada']
+maior = preco[0]
+indice_maior = 0
+for i in range(len(preco)):
+   # print(f"vou testar se {preco[i]}, é maior que {maior}")
+    if preco[i] > maior:
+    #    print(f" Deu certo vou trocar {maior} por {preco[i]}")
+        maior = preco[i]
+        indice_maior = i
+print(f"O carro mais caro é o {carros[indice_maior]}")
+'''
+
+
+for i in range(1,11):
+    print(f"tabuada do {i}:")
+    for j in range(1,11):
+        print(f" a tabuada do {i} * {j} = {j*i}")
